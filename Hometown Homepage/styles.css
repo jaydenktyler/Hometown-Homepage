@@ -1,0 +1,155 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 900px;
+    
+}
+
+#main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#title, #banner-description {
+    background: #1d3557;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+#home-banner {
+    background-image: url(images/skyline.jpg);
+    background-size: cover;
+    padding-bottom: 300px;
+    max-width: 900px;
+    
+    
+}
+
+.activity-section {
+    background: #f1faee;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#top-activity-title {
+    background: #1d3557;
+    color: white;
+    opacity: 0.9;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+ 
+.activity-single {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    margin: 5px 10px;
+}
+
+.act-img {
+    border-radius: 500%;
+    text-align: center;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.act-info {
+    font-size: 15px;
+    width: 210px;
+    
+}
+
+#mcdavid-img {
+   
+}
+
+#festival:hover {
+    background: #a8dadc;
+    color: #1d3557;
+    border-radius: 5px; 
+    transition: background-color .5s;
+    
+}
+
+#vall:hover {
+    background: #A8DADC;
+    color: #1D3557;
+    border-radius: 5px;
+    transition: background-color .5s;
+}
+
+#mcdavid:hover {
+    background: #A8DADC;
+    color: #1D3557;
+    border-radius: 5px; 
+    transition: background-color .5s;
+}
+
+
+
+
+
+
+
+
+
+
+#guide-section {
+    display: flex;
+    width: 520px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #A8DADC;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: 6px solid #1D3557;   
+}
+
+.avatar {
+    width: 200px;
+    height: 260px;
+    align-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+#guide-content {
+    width: 200px;
+    margin-left: 50px;
+    padding-top: 40px;
+    color: #1D3557;
+}
+
+.guide-intro {
+    font-weight: bold;
+}
+   
